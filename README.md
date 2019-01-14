@@ -31,3 +31,9 @@ Daftarkan kedua nameserver yang telah kamu buat pada server
 <b>DNS > Add / Delete Records
 <br>
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/addrec.jpeg">
+Tambahkan records di bawah ini dan sesuaikan
+<pre>mail    3600    IPServerKamu</pre>
+<pre>www    3600     daengweb.id</pre>
+<pre>daengweb.id   3600   10   mail.daengweb.id</pre>
+<br>
+Ganti nameserver pada panel domain dengan target nameserver yang telah kita buat sebelumnya
