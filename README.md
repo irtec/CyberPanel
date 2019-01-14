@@ -32,11 +32,11 @@ Daftarkan kedua nameserver yang telah kamu buat pada server
 <br>
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/addrec.jpeg">
 Tambahkan records di bawah ini dan sesuaikan
-<br><b>A Record
+<b>A Record
 <pre>mail    3600    IPServer</pre>
-<br><b>CNAME
+<b>CNAME
 <pre>www    3600     domain.pro</pre>
-<br><b>MX
+<b>MX
 <pre>domain.pro   3600   10   mail.domain.pro</pre>
 <br>
 Ganti nameserver pada panel domain dengan target nameserver yang telah kita buat sebelumnya
