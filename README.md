@@ -6,8 +6,8 @@ Centos 7
 <pre># yum install gcc openssl-devel bzip2-devel</pre>
 <pre># cd /usr/src
 # wget https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz</pre>
-<pre>#tar xzf Python-2.7.15.tgz</pre>
-<pre>#cd Python-2.7.15
+<pre># tar xzf Python-2.7.15.tgz</pre>
+<pre># cd Python-2.7.15
 # ./configure --enable-optimizations
 # make altinstall</pre>
 <pre># /usr/local/bin/python2.7 -V
