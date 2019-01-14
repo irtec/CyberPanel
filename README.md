@@ -32,6 +32,7 @@ Daftarkan kedua nameserver yang telah kamu buat pada server
 <br>
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/addrec.jpeg">
 Tambahkan records di bawah ini dan sesuaikan
+<br>
 <b>A Record
 <pre>mail    3600    IPServer</pre>
 <b>CNAME
