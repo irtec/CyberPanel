@@ -9,6 +9,5 @@ Disabled terlebih dahulu SELinux sementara
 <pre>nano /etc/sysconfig/selinux</pre>
 Install CyberPanel
 <pre>sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)</pre>
-<br>
 <h2>Konfigurasi Cyberpanel</h2>
 <p>Private Name Server
