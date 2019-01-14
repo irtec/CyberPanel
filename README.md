@@ -10,6 +10,7 @@ Disabled terlebih dahulu SELinux sementara
 # Install CyberPanel
 <pre># sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)</pre>
 <h2>Konfigurasi Cyberpanel</h2>
+
 # Private Name Server
 <p>DNS > Create Nameserver
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/ns.jpeg" style="width:104px;height:142px;">
