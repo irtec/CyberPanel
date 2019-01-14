@@ -5,7 +5,7 @@ Centos 7
 <pre># yum update</pre>
 Disabled terlebih dahulu SELinux sementara
 <pre># nano /etc/sysconfig/selinux</pre>
-<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/selinux.jpeg" style="width:104px;height:142px;">
+<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/selinux.jpeg">
 
 # Install CyberPanel
 <pre># sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)</pre>
@@ -13,7 +13,7 @@ Disabled terlebih dahulu SELinux sementara
 
 <b>Private Name Server</b>
 DNS > Create Nameserver
-<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/ns.jpeg" style="width:104px;height:142px;">
+<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/ns.jpeg">
 <b>private nameserver (Provider Domain)</b>
 <br>
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/PNS.jpeg">
@@ -26,3 +26,8 @@ Daftarkan kedua nameserver yang telah kamu buat pada server
 <b>Websites > Create Website
 <br>
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/adddom.jpeg">
+
+# Manage DNS
+<b>DNS > Add / Delete Records
+<br>
+<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/addrec.jpeg">
