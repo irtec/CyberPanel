@@ -4,6 +4,7 @@ Centos 7
 <p>1. Centos 7.x
 <pre># yum update</pre>
 Disabled terlebih dahulu SELinux sementara
+<pre># sudo setenforce 0</pre>
 <pre># nano /etc/sysconfig/selinux</pre>
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/selinux.jpeg">
 
