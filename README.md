@@ -21,3 +21,8 @@ DNS > Create Nameserver
 Daftarkan kedua nameserver yang telah kamu buat pada server
 <br>
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/RegNS.jpeg">
+
+# Add Domain
+<b>Websites > Create Website
+<br>
+<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/adddom.jpeg">
