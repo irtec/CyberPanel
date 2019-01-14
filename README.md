@@ -16,4 +16,8 @@ DNS > Create Nameserver
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/ns.jpeg" style="width:104px;height:142px;">
 <b>private nameserver (Provider Domain)</b>
 <br>
-<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/PNS.jpeg" style="width:104px;height:142px;">
+<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/PNS.jpeg">
+<br>
+Daftarkan kedua nameserver yang telah kamu buat pada server
+<br>
+<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/RegNS.jpeg">
