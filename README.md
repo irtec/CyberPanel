@@ -34,7 +34,7 @@ Daftarkan kedua nameserver yang telah kamu buat pada server
 Tambahkan records di bawah ini dan sesuaikan
 <pre>mail    3600    IPServer</pre>
 <pre>www    3600     domain.pro</pre>
-<pre>daengweb.id   3600   10   mail.domain.pro</pre>
+<pre>domain.pro   3600   10   mail.domain.pro</pre>
 <br>
 Ganti nameserver pada panel domain dengan target nameserver yang telah kita buat sebelumnya
 <pre>ns1.domain.pro
