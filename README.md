@@ -12,5 +12,5 @@ Disabled terlebih dahulu SELinux sementara
 <h2>Konfigurasi Cyberpanel</h2>
 
 <b>Private Name Server</b>
-<p>DNS > Create Nameserver
+DNS > Create Nameserver
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/ns.jpeg" style="width:104px;height:142px;">
