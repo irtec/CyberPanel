@@ -43,3 +43,36 @@ Tambahkan records di bawah ini dan sesuaikan
 Ganti nameserver pada panel domain dengan target nameserver yang telah kita buat sebelumnya
 <pre>ns1.domain.pro
 ns2.domain.pro</pre>
+
+# Install IonCube loader on OpenLiteSpeed
+<b>Download Ioncube loader
+<pre>wget https://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.zip
+unzip ioncube_loaders_lin_x86-64.zip</pre>
+
+<b>Copy extension to respective PHP versions
+PHP 7.0
+<pre>cp ioncube/ioncube_loader_lin_7.0.so /usr/local/lsws/lsphp70/lib64/php/modules/ioncube_loader_lin_7.0.so</pre>
+
+PHP 7.1
+<pre>cp ioncube/ioncube_loader_lin_7.1.so /usr/local/lsws/lsphp71/lib64/php/modules/ioncube_loader_lin_7.1.so</pre>
+
+PHP 7.2
+<pre>cp ioncube/ioncube_loader_lin_7.2.so /usr/local/lsws/lsphp72/lib64/php/modules/ioncube_loader_lin_7.2.so</pre>
+
+<b>Create configuration files
+PHP 7.0
+<pre>echo "zend_extension = /usr/local/lsws/lsphp70/lib64/php/modules/ioncube_loader_lin_7.0.so" \
+    > '/usr/local/lsws/lsphp70/etc/php.d/00-ioncube.ini'</pre>
+
+PHP 7.1
+<pre>echo "zend_extension = /usr/local/lsws/lsphp71/lib64/php/modules/ioncube_loader_lin_7.1.so" \
+    > '/usr/local/lsws/lsphp71/etc/php.d/00-ioncube.ini'</pre>
+
+PHP 7.2
+<pre>echo "zend_extension = /usr/local/lsws/lsphp72/lib64/php/modules/ioncube_loader_lin_7.2.so" \
+    > '/usr/local/lsws/lsphp72/etc/php.d/00-ioncube.ini'</pre>
+
+Restart OpenLiteSpeed:
+<pre>systemctl restart lsws</pre>
+
+<h2>Done!!</h2>
