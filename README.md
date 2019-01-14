@@ -14,3 +14,6 @@ Disabled terlebih dahulu SELinux sementara
 <b>Private Name Server</b>
 DNS > Create Nameserver
 <img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/ns.jpeg" style="width:104px;height:142px;">
+
+<b>private nameserver (Provider Domain)</b>
+<img src="https://raw.githubusercontent.com/irtec/CyberPanel/master/PNS.jpeg" style="width:104px;height:142px;">
