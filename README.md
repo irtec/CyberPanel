@@ -12,7 +12,7 @@ Centos 7
 # make altinstall</pre>
 <pre># /usr/local/bin/python2.7 -V
 Python 2.7.15</pre>
-# Install PIP
+<p>3. Install PIP
 <pre># curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 # python2.7 get-pip.py</pre>
 
