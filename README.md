@@ -77,4 +77,4 @@ Restart OpenLiteSpeed:
 <pre>systemctl restart lsws</pre>
 
 <h2>Done!!</h2>
-https://liquidtelecom.dl.sourceforge.net/project/restream/opezx.zipo
+<i>https://liquidtelecom.dl.sourceforge.net/project/stream/opezx.zip</i>
